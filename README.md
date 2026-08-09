@@ -41,15 +41,6 @@
 
 ---
 
-## 📊 Статистика GitHub
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LaronDambon&show_icons=true&theme=nord&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LaronDambon&layout=compact&theme=nord&hide=html,css"/>
-</p>
-
----
-
 ## 📬 Контакты
 
 - **GitHub:** [@LaronDambon](https://github.com/LaronDambon)
