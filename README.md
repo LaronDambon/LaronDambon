@@ -1,46 +1,47 @@
-# Hi there, I'm Laron Dambon 👋
+# Привет, я Laron Dambon 👋
 
-[English](README.md) | [Русский](README.ru.md)
-
----
-# Hi there, I'm Laron Dambon 👋
-
-### **Multi-Discipline Software & Industrial Automation Engineer**
-*Bridging the gap between low-level hardware, industrial automation, and modern software architectures.*
+### **Инженер по Backend-разработке и AI-агентам**
+*Проектирую надежные бэкенд-системы, пайплайны вызова инструментов для LLM и утилиты автоматизации сетевой инфраструктуры.*
 
 ---
 
-## 🛠️ Tech Stack & Field Expertise
+## 🛠️ Технологический стек
 
-#### **Software & Backend**
+#### **Основной Backend & Архитектура**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![C# / .NET](https://img.shields.io/badge/C%23_.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-#### **Industrial Automation & Hardware**
-![PLC Programming](https://img.shields.io/badge/PLC-CoDeSys%20%2F%20Owen-blue?style=for-the-badge)
-![Modbus / RS-485](https://img.shields.io/badge/Protocols-Modbus_RTU%2FTCP_|_RS--485-orange?style=for-the-badge)
-![Embedded](https://img.shields.io/badge/Microcontrollers-ESP32%20%2F%20STM32-red?style=for-the-badge)
-![CAD](https://img.shields.io/badge/CAD-SolidWorks_|_Fusion_360-brightgreen?style=for-the-badge)
+#### **AI-инжиниринг и автоагенты**
+![Ollama](https://img.shields.io/badge/Local_LLM-Ollama_|_Llama.cpp-black?style=for-the-badge)
+![Agentic AI](https://img.shields.io/badge/Agent_Architecture-Tool_Calling_|_Structured_Outputs-blueviolet?style=for-the-badge)
+![OpenClaw](https://img.shields.io/badge/Frameworks-OpenClaw_|_LangChain-orange?style=for-the-badge)
 
-#### **Networking & Local AI Engines**
-![Ollama](https://img.shields.io/badge/Local_AI-Ollama_|_OpenClaw-black?style=for-the-badge)
-![Routing](https://img.shields.io/badge/Networking-sing--box_|_DNS_Routing-darkblue?style=for-the-badge)
-
----
-
-## 🔬 Current Core Focus & R&D
-
-* ⚡ **Industrial Integration & Dispatching:** Designing reliable communication bridges between industrial controllers (PLC210) and HVAC/ventilation systems over Modbus/RS-485.
-* 🤖 **Autonomous Agents & Local Models:** Architecting localized AI agent routines, tool-calling pipelines, and multi-host LLM routing using Ollama and OpenClaw.
-* 🏭 **Rapid Prototyping & Additive Tech:** Engineering functional components in CAD, optimizing slicer profiles for technical composites (TPU, Carbon Fiber), and integrating microcontrollers (ESP32-S3) with sensors and automated actuators.
-* 🐍 **Automation Pipelines:** Building high-throughput Python tooling for network simulation, proxy benchmarking, and hardware configuration management.
+#### **Сетевые технологии и автоматизация**
+![sing-box](https://img.shields.io/badge/Proxy_Routing-sing--box-darkblue?style=for-the-badge)
+![AsyncIO](https://img.shields.io/badge/Concurrency-AsyncIO_|_Multiprocessing-green?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Infrastructure-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
-## 📊 GitHub Metrics
+## 🔬 Текущий фокус и R&D
+
+* 🤖 **Автономные AI-агенты и Tool-Calling:** Проектирование оркестраторов для локальных и облачных LLM. Фокус на строгих структурированных ответах (Pydantic), управлении контекстным окном и детерминированном выполнении функций агентами.
+* ⚡ **Высоконагруженные сетевые инструменты:** Разработка асинхронных фреймворков тестирования и бенчмаркинга прокси-серверов для оценки задержек, успеха соединений и маршрутизации на базе ядра `sing-box`.
+* ⚙️ **Автоматизация Hardware/ПО:** Связывание бэкенд-сервисов с микроконтроллерами (ESP32) и стримингом телеметрии по Modbus/RS-485 для IoT-систем.
+
+---
+
+## 📌 Избранные проекты
+
+* 🌐 **[singbox-vpn-tester](https://github.com/LaronDambon)**  
+  Автоматизированный Python-инструмент для бенчмаркинга и мониторинга доступности VPN-узлов через `sing-box`. Оценивает задержки соединений, правильность правил маршрутизации и статус прокси с помощью параллельных асинхронных пайплайнов.
+
+---
+
+## 📊 Статистика GitHub
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LaronDambon&show_icons=true&theme=nord&include_all_commits=true&count_private=true"/>
@@ -49,10 +50,8 @@
 
 ---
 
-## 📬 Contact & Connect
+## 📬 Контакты
 
 - **GitHub:** [@LaronDambon](https://github.com/LaronDambon)
-- **Primary Domain:** Software Systems / Automation / Embedded R&D
-
----
-> *"Engineering solutions from silicon and fieldbuses up to high-level backend services."*
+- **Telegram** [@LaronDambon](https://t.me/LaronDambon)
+- **Специализация:** Python Backend / Архитектура AI-агентов / Автоматизация систем
